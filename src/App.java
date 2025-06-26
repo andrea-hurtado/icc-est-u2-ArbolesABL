@@ -1,5 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        AVLTrre arbol = new AVLTrre();
+        System.out.println("Nombres: Andrea Hurtado - Juliana Torres");
+
+        arbol.insert(10);
+        arbol.insert(20);
+        arbol.insert(15);
     }
+
 }
